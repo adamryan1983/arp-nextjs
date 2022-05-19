@@ -1,0 +1,24 @@
+.rightContainer {
+  height: 85vh;
+  width: 100%;
+  background-color: rgba(147, 135, 240, 0.42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  height: 30rem;
+  width: 100%;
+  background-color: rgba(200, 84, 84, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 750px) {
+  .rightContainer, .imageContainer {
+    height: 100%;
+    width: 100%;
+  }
+}
